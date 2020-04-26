@@ -18,7 +18,7 @@ const Accounts = ({ getAccounts, accounts, loading }) => {
 		<div>
 			<h1> Accounts </h1>
 
-			<div>
+			<div className='container'>
 				{!loading && accounts.length === 0 ? (
 					<p className='center'>No Accounts available... </p>
 				) : (
